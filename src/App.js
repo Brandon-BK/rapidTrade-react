@@ -2,8 +2,9 @@ import React, { Suspense, useContext } from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
 import Layout from "./components/layout/Layout";
 import LoadingSpinner from "./components/UI/LoadingSpinner";
-import AuthContext from "./components/store/auth-context";
 // import UserProfile from './components/Profile/UserProfile'
+// import UserProfile from "./components/Profile/UserProfile";
+import AuthContext from "./components/store/auth-context";
 
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
